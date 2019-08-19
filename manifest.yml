@@ -1,0 +1,7 @@
+applications:
+- name: myapp
+  host: ml
+  path: .
+  memory: 128M
+  disk_quota: 2G
+  command: python server.py

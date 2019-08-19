@@ -1,0 +1,14 @@
+name: myapp-dependencies
+
+channels:
+- conda-forge
+
+dependencies:
+- python=3.6
+- pip
+- flask
+- numpy
+- scikit-learn
+- tslearn
+- pandas
+- opencv
